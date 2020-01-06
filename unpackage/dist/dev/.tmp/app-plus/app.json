@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/basics/IndexList",
+    "pages/basics/Success_buy",
+    "pages/basics/Error_buy",
+    "pages/basics/Result",
+    "pages/basics/Card",
+    "pages/map/map"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "ColorUi for UniApp",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "cardapp",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {
+    "components": "/pages/index/index"
+  }
+}

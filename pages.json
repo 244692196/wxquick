@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Impower"
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "购券",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "购券记录",
+							"fontSize": "16",
+							"float": "right",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/basics/Card",
+			"style": {
+				"navigationBarTitleText": "绑卡",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/map/Map",
+			"style": {
+				"navigationBarTitleText": "网点",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/map/Plat",
+			"style": {
+				"navigationBarTitleText": "地图"
+			}
+		},
+		{
+			"path": "pages/basics/IndexList",
+			"style": {
+				"navigationBarTitleText": "卡包"
+			}
+		},
+		{
+			"path": "pages/basics/Record",
+			"style": {
+				"navigationBarTitleText": "购券记录"
+				// "navigationBarBackgroundColor": "#F2F2F2",
+				// "navigationBarTextStyle":"black"
+			}
+		}
+	],
+	"globalStyle": {
+		// "navigationStyle":"custom"
+		"navigationBarBackgroundColor": "#3699D9"
+		
+	}
+
+	// "usingComponts": true,
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "表单", //模式名称
+	// 		"path": "pages/component/form", //启动页面
+	// 		"query": "" //启动参数
+	// 	}]
+	// },
+	/*"tabBar": {
+		"color": "#3D3D3D",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"fontSize":"14px",
+		"height":"70px",
+		"iconWidth":"28px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/img/card2.png",
+				"selectedIconPath": "static/img/card1.png",
+				"text": "购券"
+			},
+			{
+				"pagePath": "pages/basics/Card",
+				"iconPath": "./static/img/card3.png",
+				"selectedIconPath": "static/img/card4.png",
+				"text": "绑卡"
+			}, {
+				"pagePath": "pages/map/Map",
+				"iconPath": "./static/img/card5.png",
+				"selectedIconPath": "static/img/card6.png",
+				"text": "网点"
+			}
+		]
+	}*/
+
+}

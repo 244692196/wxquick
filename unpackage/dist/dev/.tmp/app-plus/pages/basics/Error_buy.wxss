@@ -1,0 +1,25 @@
+
+#success .submit {
+	width: 72%;
+	height: 35px;
+	background:#75ACFB;
+	border: 1px solid #75ACFB;
+	text-align: center;
+	margin: 13px auto;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#success ._p {
+	/* color: red; */
+	margin: 0 auto;
+}
+.font{
+	width: 100%;
+	font: 18px/1.5 '\5FAE\8F6F\96C5\9ED1';
+	text-align: center;
+	margin:auto;
+}
+

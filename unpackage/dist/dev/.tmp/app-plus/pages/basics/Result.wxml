@@ -1,0 +1,1 @@
+<view id="loadingToast"><view class="weui-mask_transparent"></view><view class="cu-load load-modal"><image style="width:20%;" src="../../static/img/load.png" mode="aspectFit"></image><view class="gray-text">正在查询结果</view></view></view>

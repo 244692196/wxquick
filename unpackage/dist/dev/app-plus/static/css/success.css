@@ -1,0 +1,59 @@
+.success{
+    padding-top: 0px;
+    max-width: 768px;
+    margin:0 auto;
+    min-width: 320px;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+    /* min-height:580px; */
+    height: 100vh;
+    background-size: center center;
+}
+.success img {
+    display: block;
+    width: 50px;
+    margin: 80px auto 30px;
+}
+.success p{
+    margin:20px auto 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color:#000;
+    text-align: center;
+}
+.s_msg{
+    width:70%;
+    height:140px;
+    /* margin:45px 0 0 12%; */
+	margin:30px auto 45px;
+    background:#fff;
+    border-radius:3px;
+    filter:alpha(opacity:50);
+    opacity:0.8;
+    padding:10px;
+}
+.s_title{
+    display: block;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color:#323232;
+    margin:20px 0 10px 10px;
+}
+.s_red{
+    font-family: "Microsoft YaHei";
+    color:red;
+    font-size: 18px;
+    text-align: center;
+}
+.s_redlink{
+    font-family: "Microsoft YaHei";
+    color:red;
+    font-size: 18px;
+    text-align: center;
+    margin:0 0 0 20px;
+}
+.s_redlink a:link,a:visited,a:hover,a:active{
+    color:red;
+    text-decoration: underline;
+}

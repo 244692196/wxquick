@@ -1,0 +1,28 @@
+html{
+    font-size:6mm;
+}
+.titleheight{
+    height:3rem; //这里等于10mm
+    width:10rem; //这里等于11mm
+    background: border:solid 2px #ccc;url("../img/card_number2.png")no-repeat 0px content;
+}
+.titleheight input{border:none;background:none;height:40px;line-height:30px;width:12; text-indent:32px;}
+
+.bodyHeight{
+    height:180rem; //这里等于10mm
+    width:10rem; //这里等于11mm
+
+}
+.cardHeight{
+    height:3rem; //这里等于10mm
+}
+.imgC{
+    float:left;height: 3rem;width:3rem
+}
+.nameAndP{
+    float:left;height: 3rem;width:12rem
+}
+.aClass{
+    display: block;
+}
+ 
